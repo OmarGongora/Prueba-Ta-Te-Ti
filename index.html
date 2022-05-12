@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta Te Ti!</title>
+    <link rel="stylesheet" href="./Css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Ta - Te - Ti!</h1>
+    </header>
+
+    <main>
+        <div class="sorteo" id="divSorteo">
+            <h2>Sortea quien empieza!</h2>
+
+            <div id="casillaSorteo"></div>
+
+            <button type="button" onclick="calcSorteo(), intercambioBotones()" id="launch"><span>Click para sortear</span></button>
+
+            <button type="button" class="none" onclick="empezarJuego()"  id="start"><span>Empezar a Jugar</span></button>
+        </div>
+
+        <div class="juego" id="tablero">
+            <div class="casilla " id="casilla1" ></div>
+            <div class="casilla bDerIzq" id="casilla2"></div>
+            <div class="casilla" id="casilla3"></div>
+            <div class="casilla bArrAbj" id="casilla4"></div>
+            <div class="casilla bTod" id="casilla5"></div>
+            <div class="casilla bArrAbj" id="casilla6"></div>
+            <div class="casilla" id="casilla7"></div>
+            <div class="casilla bDerIzq" id="casilla8"></div>
+            <div class="casilla" id="casilla9"></div>
+        </div>
+
+    </main>
+
+    <script src="./Js/app.js"></script>
+</body>
+</html>
